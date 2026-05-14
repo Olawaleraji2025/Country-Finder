@@ -1,0 +1,18 @@
+/* Light mode styles */
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: hsl(209, 23%, 22%);
+  color: white;
+}
+
+.light-mode,
+.dark-mode {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
